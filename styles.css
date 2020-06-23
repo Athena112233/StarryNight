@@ -262,3 +262,15 @@
     -webkit-animation:move-planet 15s infinite;
     animation:move-planet 15s infinite;
 }
+
+#card1{
+    width: 30%;
+    height: 65%;
+    background-color: pink;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 35%;
+    z-index: 3;
+    top: 20%;
+    
+}

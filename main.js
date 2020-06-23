@@ -25,6 +25,11 @@ function init(){
 }
 
 function displayCard(){
-    console.log('Hello World');
-    alert('PrintCard')
+    var planets = document.getElementsByClassName('planet');
+    var num = planets.length;
+    console.log(num);
+
+    for(var i = 0; i < num; i++){
+        planets[i].style.visibility = 'hidden';
+    }
 }
