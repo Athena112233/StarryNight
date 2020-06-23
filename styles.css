@@ -71,7 +71,6 @@
 .darkplanet1{
     position: absolute;
     top: 5%;
-    bottom:0;
     width:20%;
     height:20%;
     display:block;
@@ -85,7 +84,6 @@
 .darkplanet2{
     position:absolute;
     top:20%;
-    bottom:0;
     width:10%;
     height:10%;
     display:block;
@@ -98,7 +96,6 @@
 .darkplanet3{
     position:absolute;
     top:50%;
-    bottom:0;
     width:35%;
     height:35%;
     display:block;
@@ -111,7 +108,6 @@
 .darkplanet4{
     position:absolute;
     top:70%;
-    bottom:0;
     width:22%;
     height:22%;
     display:block;
@@ -124,7 +120,6 @@
 .brightplanet1{
     position:absolute;
     top:15%;
-    bottom:0;
     width:20%;
     height:20%;
     display:block;
@@ -137,7 +132,6 @@
 .brightplanet2{
     position:absolute;
     top:45%;
-    bottom:0;
     width:30%;
     height:30%;
     display:block;
@@ -197,11 +191,11 @@
     background-repeat: no-repeat;
     z-index:3;
 
-    -moz-animation:move-planet 20s infinite;
-    -ms-animation:move-planet 20s infinite;
-    -o-animation:move-planet 20s infinite;
-    -webkit-animation:move-planet 20s infinite;
-    animation:move-planet 20s infinite;
+    -moz-animation:move-planet 15s infinite;
+    -ms-animation:move-planet 15s infinite;
+    -o-animation:move-planet 15s infinite;
+    -webkit-animation:move-planet 15s infinite;
+    animation:move-planet 15s infinite;
 }
 
 .darkplanet3{
