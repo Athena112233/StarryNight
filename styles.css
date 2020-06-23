@@ -210,11 +210,11 @@
     background-repeat: no-repeat;
     z-index:3;
 
-    -moz-animation:move-planet 60s infinite;
-    -ms-animation:move-planet 60s infinite;
-    -o-animation:move-planet 60s infinite;
-    -webkit-animation:move-planet 60s infinite;
-    animation:move-planet 60s infinite;
+    -moz-animation:move-planet 25s infinite;
+    -ms-animation:move-planet 25s infinite;
+    -o-animation:move-planet 25s infinite;
+    -webkit-animation:move-planet 25s infinite;
+    animation:move-planet 25ss infinite;
 }
 
 .darkplanet4{
