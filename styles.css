@@ -70,7 +70,7 @@
 */
 .darkplanet1{
     position: absolute;
-    top:80px;
+    top: 5%;
     bottom:0;
     width:20%;
     height:20%;
@@ -84,7 +84,7 @@
 
 .darkplanet2{
     position:absolute;
-    top:200px;
+    top:20%;
     bottom:0;
     width:10%;
     height:10%;
@@ -97,7 +97,7 @@
 
 .darkplanet3{
     position:absolute;
-    top:500px;
+    top:50%;
     bottom:0;
     width:35%;
     height:35%;
@@ -110,7 +110,7 @@
 
 .darkplanet4{
     position:absolute;
-    top:0;
+    top:70%;
     bottom:0;
     width:22%;
     height:22%;
@@ -123,7 +123,7 @@
 
 .brightplanet1{
     position:absolute;
-    top:150px;
+    top:15%;
     bottom:0;
     width:20%;
     height:20%;
@@ -136,7 +136,7 @@
 
 .brightplanet2{
     position:absolute;
-    top:300px;
+    top:45%;
     bottom:0;
     width:30%;
     height:30%;
@@ -149,7 +149,7 @@
 
 .brightplanet3{
     position:absolute;
-    top:450px;
+    top:60%;
     bottom:0;
     width:25%;
     height:25%;
