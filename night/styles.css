@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* define movement patterns */
+
+/* regular */
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+/* chrome and safari */
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+/* firfox */
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+/* internet explorer */
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+/* darkplanet and brightplanet */
+@keyframes move-planet {
+    from {right: 0%;}
+    to {right: 100%;}
+}
+
+@-o-keyframes move-planet{
+    from {right: 0%;}
+    to {right: 100%;}
+}
+@-webkit-keyframes move-planet {
+    from {right: 0%;}
+    to {right: 100%;}
+}
+@-moz-keyframes move-planet {
+    from {right: 0%;}
+    to {right: 100%;}
+}
+@-ms-keyframes move-planet {
+    from {right: 0%;}
+    to {right: 100%;}
+}
+
+/* starry night configuration */
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+/* planet configuration
+   location
+   div dimension 
+   cursor to pointer
+*/
+.darkplanet1{
+    position: absolute;
+    top:80px;
+    bottom:0;
+    width:20%;
+    height:20%;
+    display:block;
+    animation: move-planet 100s infinite;
+  }
+
+.darkplanet1:hover{
+    cursor: pointer;
+}
+
+.darkplanet2{
+    position:absolute;
+    top:200px;
+    bottom:0;
+    width:10%;
+    height:10%;
+    display:block;
+  }
+
+.darkplanet2:hover{
+    cursor: pointer;
+}
+
+.darkplanet3{
+    position:absolute;
+    top:500px;
+    bottom:0;
+    width:35%;
+    height:35%;
+    display:block;
+  }
+
+.darkplanet3:hover{
+    cursor: pointer;
+}
+
+.darkplanet4{
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:22%;
+    height:22%;
+    display:block;
+  }
+
+.darkplanet4:hover{
+    cursor: pointer;
+}
+
+.brightplanet1{
+    position:absolute;
+    top:150px;
+    bottom:0;
+    width:20%;
+    height:20%;
+    display:block;
+  }
+
+.brightplanet1:hover{
+    cursor: pointer;
+}
+
+.brightplanet2{
+    position:absolute;
+    top:300px;
+    bottom:0;
+    width:30%;
+    height:30%;
+    display:block;
+  }
+
+.brightplanet2:hover{
+    cursor: pointer;
+}
+
+.brightplanet3{
+    position:absolute;
+    top:450px;
+    bottom:0;
+    width:25%;
+    height:25%;
+    display:block;
+  }
+
+.brightplanet3:hover{
+    cursor: pointer;
+}
+
+
+/* import images */
+.stars {
+  background: black url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.darkplanet1{
+    background:transparent url(darkplanet.png);
+    z-index:3;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  -moz-animation:move-planet 30s infinite;
+  -ms-animation:move-planet 30s infinite;
+  -o-animation:move-planet 30s infinite;
+  -webkit-animation:move-planet 30s infinite;
+  animation:move-planet 30s infinite;
+}
+
+.darkplanet2{
+    background:transparent url(darkplanet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:3;
+
+    -moz-animation:move-planet 45s infinite;
+    -ms-animation:move-planet 45s infinite;
+    -o-animation:move-planet 45s infinite;
+    -webkit-animation:move-planet 45s infinite;
+    animation:move-planet 45s infinite;
+}
+
+.darkplanet3{
+    background:transparent url(darkplanet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:3;
+
+    -moz-animation:move-planet 60s infinite;
+    -ms-animation:move-planet 60s infinite;
+    -o-animation:move-planet 60s infinite;
+    -webkit-animation:move-planet 60s infinite;
+    animation:move-planet 60s infinite;
+}
+
+.darkplanet4{
+    background:transparent url(darkplanet.png) repeat top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:3;
+
+    -moz-animation:move-planet 65s infinite;
+    -ms-animation:move-planet 65s infinite;
+    -o-animation:move-planet 65s infinite;
+    -webkit-animation:move-planet 65s infinite;
+    animation:move-planet 65s infinite;
+}
+
+.brightplanet1{
+    background:transparent url(brightplanet2.png) repeat top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:3;
+
+    -moz-animation:move-planet 60s infinite;
+    -ms-animation:move-planet 60s infinite;
+    -o-animation:move-planet 60s infinite;
+    -webkit-animation:move-planet 60s infinite;
+    animation:move-planet 60s infinite;
+}
+
+.brightplanet2{
+    background:transparent url(brightplanet2.png) repeat top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:3;
+
+    -moz-animation:move-planet 40s infinite;
+    -ms-animation:move-planet 40s infinite;
+    -o-animation:move-planet 40s infinite;
+    -webkit-animation:move-planet 40s infinite;
+    animation:move-planet 40s infinite;
+}
+
+.brightplanet3{
+    background: transparent url(brightplanet1.png) repeat top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:3;
+
+    -moz-animation:move-planet 15s infinite;
+    -ms-animation:move-planet 15s infinite;
+    -o-animation:move-planet 15s infinite;
+    -webkit-animation:move-planet 15s infinite;
+    animation:move-planet 15s infinite;
+}
