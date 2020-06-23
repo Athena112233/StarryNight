@@ -68,7 +68,7 @@
    div dimension 
    cursor to pointer
 */
-.darkplanet1{
+#darkplanet1{
     position: absolute;
     top: 5%;
     width:20%;
@@ -77,11 +77,11 @@
     animation: move-planet 100s infinite;
   }
 
-.darkplanet1:hover{
+#arkplanet1:hover{
     cursor: pointer;
 }
 
-.darkplanet2{
+#darkplanet2{
     position:absolute;
     top:20%;
     width:10%;
@@ -89,11 +89,11 @@
     display:block;
   }
 
-.darkplanet2:hover{
+#darkplanet2:hover{
     cursor: pointer;
 }
 
-.darkplanet3{
+#darkplanet3{
     position:absolute;
     top:50%;
     width:35%;
@@ -101,11 +101,11 @@
     display:block;
   }
 
-.darkplanet3:hover{
+#darkplanet3:hover{
     cursor: pointer;
 }
 
-.darkplanet4{
+#darkplanet4{
     position:absolute;
     top:70%;
     width:22%;
@@ -113,11 +113,11 @@
     display:block;
   }
 
-.darkplanet4:hover{
+#darkplanet4:hover{
     cursor: pointer;
 }
 
-.brightplanet1{
+#brightplanet1{
     position:absolute;
     top:15%;
     width:20%;
@@ -125,11 +125,11 @@
     display:block;
   }
 
-.brightplanet1:hover{
+#brightplanet1:hover{
     cursor: pointer;
 }
 
-.brightplanet2{
+#brightplanet2{
     position:absolute;
     top:40%;
     width:30%;
@@ -137,11 +137,11 @@
     display:block;
   }
 
-.brightplanet2:hover{
+#brightplanet2:hover{
     cursor: pointer;
 }
 
-.brightplanet3{
+#brightplanet3{
     position:absolute;
     top:60%;
     bottom:0;
@@ -150,7 +150,7 @@
     display:block;
   }
 
-.brightplanet3:hover{
+#brightplanet3:hover{
     cursor: pointer;
 }
 
@@ -172,7 +172,7 @@
   animation:move-twink-back 200s linear infinite;
 }
 
-.darkplanet1{
+#darkplanet1{
     background:transparent url(darkplanet.png);
     z-index:3;
     background-size: contain;
@@ -185,7 +185,7 @@
   animation:move-planet 30s infinite;
 }
 
-.darkplanet2{
+#darkplanet2{
     background:transparent url(darkplanet.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -198,7 +198,7 @@
     animation:move-planet 15s infinite;
 }
 
-.darkplanet3{
+#darkplanet3{
     background:transparent url(darkplanet.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@
     animation:move-planet 25ss infinite;
 }
 
-.darkplanet4{
+#darkplanet4{
     background:transparent url(darkplanet.png) repeat top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@
     animation:move-planet 65s infinite;
 }
 
-.brightplanet1{
+#brightplanet1{
     background:transparent url(brightplanet2.png) repeat top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@
     animation:move-planet 60s infinite;
 }
 
-.brightplanet2{
+#brightplanet2{
     background:transparent url(brightplanet2.png) repeat top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@
     animation:move-planet 40s infinite;
 }
 
-.brightplanet3{
+#brightplanet3{
     background: transparent url(brightplanet1.png) repeat top center;
     background-size: contain;
     background-repeat: no-repeat;
