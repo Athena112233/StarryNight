@@ -197,11 +197,11 @@
     background-repeat: no-repeat;
     z-index:3;
 
-    -moz-animation:move-planet 45s infinite;
-    -ms-animation:move-planet 45s infinite;
-    -o-animation:move-planet 45s infinite;
-    -webkit-animation:move-planet 45s infinite;
-    animation:move-planet 45s infinite;
+    -moz-animation:move-planet 20s infinite;
+    -ms-animation:move-planet 20s infinite;
+    -o-animation:move-planet 20s infinite;
+    -webkit-animation:move-planet 20s infinite;
+    animation:move-planet 20s infinite;
 }
 
 .darkplanet3{
