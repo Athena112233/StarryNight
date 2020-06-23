@@ -26,4 +26,5 @@ function init(){
 
 function displayCard(){
     console.log('Hello World');
+    alert('PrintCard')
 }
