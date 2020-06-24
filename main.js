@@ -27,9 +27,11 @@ function init(){
 function displayCard(){
     var planets = document.getElementsByClassName('planet');
     var num = planets.length;
-    console.log(num);
+    var card = document.getElementById('card1');
 
     for(var i = 0; i < num; i++){
         planets[i].style.visibility = 'hidden';
     }
+
+    card.style.visibility = 'visible';
 }
